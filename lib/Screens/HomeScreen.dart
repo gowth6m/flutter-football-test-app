@@ -12,6 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.orangeAccent,
         title: Text('Football App'),
         automaticallyImplyLeading: false,
         leading: Navigator.canPop(context)
@@ -44,14 +45,6 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 SizedBox(
                   height: 20,
-                ),
-                Text(
-                  'Competitions',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 25,
-                    fontWeight: FontWeight.bold,
-                  ),
                 ),
                 SizedBox(
                   height: 20,

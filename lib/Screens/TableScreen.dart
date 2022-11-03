@@ -103,6 +103,7 @@ class _TableScreenState extends State<TableScreen> {
           )
         : Scaffold(
             appBar: AppBar(
+              backgroundColor: Colors.orangeAccent,
               title: Text('Table View'),
               automaticallyImplyLeading: false,
               leading: Navigator.canPop(context)
