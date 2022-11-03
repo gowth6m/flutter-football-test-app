@@ -102,6 +102,20 @@ class _TableScreenState extends State<TableScreen> {
             ),
           )
         : Scaffold(
+            appBar: AppBar(
+              title: Text('Table View'),
+              automaticallyImplyLeading: false,
+              leading: Navigator.canPop(context)
+                  ? IconButton(
+                      icon: Icon(
+                        Icons.arrow_back,
+                        color: Color.fromARGB(255, 255, 255, 255),
+                        size: 30,
+                      ),
+                      onPressed: () => Navigator.of(context).pop(),
+                    )
+                  : null,
+            ),
             body: Container(
               decoration: BoxDecoration(
                   gradient: LinearGradient(
