@@ -41,6 +41,8 @@ class _HomeScreenState extends State<HomeScreen> {
           )),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
+            
+            // How would you build this using as slivers rather than a ListView?
             child: ListView(
               children: [
                 SizedBox(
