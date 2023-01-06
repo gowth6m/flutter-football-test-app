@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orangeAccent,
-        title: Text('Football App 04'),
+        title: Text('Football App 6'),
         automaticallyImplyLeading: false,
         leading: Navigator.canPop(context)
             ? IconButton(
